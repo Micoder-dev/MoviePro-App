@@ -16,7 +16,7 @@
         android:theme="@style/Theme.MovieProApp"
         tools:targetApi="31">
         <activity
-            android:name=".MovieActivity"
+            android:name="com.example.movieproapp.view.MovieActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

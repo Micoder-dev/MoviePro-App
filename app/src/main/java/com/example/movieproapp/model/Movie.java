@@ -257,7 +257,7 @@ public class Movie extends BaseObservable implements Parcelable {
         parcel.writeValue(posterPath);
         parcel.writeValue(originalLanguage);
         parcel.writeValue(originalTitle);
-        parcel.writeValue(genreIds);
+        // parcel.writeValue(genreIds);
         parcel.writeValue(backdropPath);
         parcel.writeValue(adult);
         parcel.writeValue(overview);
@@ -278,7 +278,7 @@ public class Movie extends BaseObservable implements Parcelable {
         this.posterPath = ((String) in.readValue((String.class.getClassLoader())));
         this.originalLanguage = ((String) in.readValue((String.class.getClassLoader())));
         this.originalTitle = ((String) in.readValue((String.class.getClassLoader())));
-        in.readList(this.genreIds, (java.lang.Integer.class.getClassLoader()));
+        // in.readList(this.genreIds, (java.lang.Integer.class.getClassLoader()));
         this.backdropPath = ((String) in.readValue((String.class.getClassLoader())));
         this.adult = ((Boolean) in.readValue((Boolean.class.getClassLoader())));
         this.overview = ((String) in.readValue((String.class.getClassLoader())));

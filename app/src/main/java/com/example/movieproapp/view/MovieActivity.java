@@ -22,10 +22,10 @@ public class MovieActivity extends AppCompatActivity {
         setContentView(R.layout.activity_movie);
 
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+//        setSupportActionBar(toolbar);
+//
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         activityMovieBinding = DataBindingUtil.setContentView(this, R.layout.activity_movie);
 
