@@ -48,4 +48,7 @@ dependencies {
     // JAVAX
     implementation 'javax.annotation:javax.annotation-api:1.3.2'
 
+    // Swipe Refresh Layout
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+
 }
